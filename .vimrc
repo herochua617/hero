@@ -483,31 +483,17 @@ set cscopetag
 set cscopeverbose 
 "set cscopequickfix=s-,c-,d-,i-,t-,e-
 
-    if (matchstr(cwd,'tetra1') == 'tetra1') 
-       if filereadable("/data/mqn486/DB/tetra.cscope")
-       set tag+=/data/mqn486/DB/tetra.ctags
-           cs add /data/mqn486/DB/tetra.cscope
+    if (matchstr(cwd,'Work1') == 'Work1') 
+       if filereadable("/data/EngSeng/DB/Work1.cscope")
+       set tag+=/data/EngSeng/DB/Work1.ctags
+           cs add /data/EngSeng/DB/Work1.cscope
        endif
-		   echo "tetra1 directory"
-		elseif (matchstr(cwd, 'tetra2') == 'tetra2')
-       if filereadable("/data/mqn486/DB/tetra2.cscope")
-       set tag+=/data/mqn486/DB/tetra2.ctags
-           cs add /data/mqn486/DB/tetra2.cscope
+                echo "Eng Seng 2 Directory"
+		elseif (matchstr(cwd, 'Work2') == 'Work2')
+       if filereadable("/data/EngSeng/DB/Work2.cscope")
+       set tag+=/data/EngSeng/DB/Work2.ctags
+           cs add /data/EngSeng/DB/Work2.cscope
        endif
-		   echo "tetra2 directory"
-    elseif (matchstr(cwd, 'tetra_1') == 'tetra_1')
-       if filereadable ("/data/mqn486/DB/tetra_1.cscope")
-			 set tag+=/data/mqn486/DB/tetra_1.ctags
-			     cs add /data/mqn486/DB/tetra_1.cscope
-			 endif
-		   echo "tetra_1 directory"
-    elseif (matchstr(cwd, 'tetra_2') == 'tetra_2')
-       if filereadable ("/data/mqn486/DB/tetra_2.cscope")
-			 set tag+=/data/mqn486/DB/tetra_2.ctags
-			     cs add /data/mqn486/DB/tetra_2.cscope
-			 endif
-		   echo "tetra_2 directory"
-	  endif
 
 
 """"""""""""" My cscope/vim key mappings
