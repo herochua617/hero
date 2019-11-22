@@ -4,10 +4,10 @@ CSCOPE_EXE=cscope
 CTAGS_EXE=ctags
 GREP_EXE=grep
 
-ROOT=/data/mqn486/tetra1
+ROOT=/data/EngSeng/
 VOB_LIST="${ROOT}"
 
-OUT_DIR=/data/mqn486/DB
+OUT_DIR=/data/EngSeng/DB
 FILELIST=${OUT_DIR}/tetra.files
 CSCOPE_OUT=${OUT_DIR}/tetra.cscope
 CSCOPE_LOG=${CSCOPE_OUT}.log
